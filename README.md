@@ -9,14 +9,13 @@ ExplainER is a package to explain any Entity Resolution model, using a Black-Box
 The explanations can be provided into two different ways:
   - **Attribute-Level**: the system shows to the user a histogram reporting the importance of the attributes with respect to the prediction. The importance is a number in [0,1]
   - **Value-level**: the system shows to the user, for each chosen attribute set/single attribute A, the most influential values for A, with respect to the prediction
-  - 
 ### Tech
 
 Dillinger uses some well-know libraries:
 
-- [Pandas](https://pandas.pydata.org/): To create perturbation
-- [Numpy](https://numpy.org/)
-- [MLXtend](http://rasbt.github.io/mlxtend/): To create explanations at value level
+* [Pandas](https://pandas.pydata.org/): To create perturbation
+* [Numpy](https://numpy.org/)
+* [MLXtend](http://rasbt.github.io/mlxtend/): To create explanations at value level
 
 ### Installation
 
