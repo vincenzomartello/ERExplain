@@ -8,9 +8,9 @@ setup(
   author = 'Vincenzo Martello',
   author_email = 'v.martello@libero.it',
   url = 'https://github.com/vincenzomartello/ExplainER.git',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz', 
+  download_url = 'https://github.com/vincenzomartello/ExplainER/archive/0.1.tar.gz', 
   keywords = ['ML', 'Entity-Resolution', 'explainable-ai'],
-  install_requires=[            # I get to this in a second
+  install_requires=[
           'pandas',
           'numpy',
           'tqdm',
