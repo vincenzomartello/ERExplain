@@ -14,9 +14,9 @@ The explanations can be provided into two different ways:
 
 Dillinger uses some well-know libraries:
 
-* [Pandas] - To create perturbation
-* [Numpy]
-* [MLXtend] - To create explanations at value level
+- [Pandas](https://pandas.pydata.org/): To create perturbation
+- [Numpy](https://numpy.org/)
+- [MLXtend](http://rasbt.github.io/mlxtend/): To create explanations at value level
 
 ### Installation
 
