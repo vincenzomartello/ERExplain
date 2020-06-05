@@ -7,8 +7,8 @@ setup(
   description = 'library to explain models for Entity Resolution', 
   author = 'Vincenzo Martello',
   author_email = 'v.martello@libero.it',
-  url = 'https://github.com/vincenzomartello/ExplainER.git',
-  download_url = 'https://github.com/vincenzomartello/ExplainER/archive/0.1.tar.gz', 
+  url = 'https://github.com/vincenzomartello/ERExplain.git',
+  download_url = 'https://github.com/vincenzomartello/ERExplain/archive/0.1.1.tar.gz', 
   keywords = ['ML', 'Entity-Resolution', 'explainable-ai'],
   install_requires=[
           'pandas',
