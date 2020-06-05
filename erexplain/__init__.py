@@ -1,2 +1,2 @@
-from explainer.triangles_method import explainSamples
-from explainer.pattern_discovery import getMaxFrequentPatterns,mineAssociationRules
+from erexplain.triangles_method import explainSamples
+from erexplain.pattern_discovery import getMaxFrequentPatterns,mineAssociationRules
