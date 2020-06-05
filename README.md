@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-ExplainER is a package to explain any Entity Resolution model, using a Black-Box approach
+ERExplain is a package to explain any Entity Resolution model, using a Black-Box approach
 
 
 # Key Features
@@ -22,7 +22,7 @@ Dillinger uses some well-know libraries:
 To install the package simply run
 
 ```sh
-$ pip install explainer
+$ pip install erexplain
 ```
 
 

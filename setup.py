@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'explainer',         
-  packages = ['explainer'],  
+  name = 'erexplain',         
+  packages = ['erxplain'],  
   version = '0.1',     
   license='apache-2.0',  
   description = 'library to explain models for Entity Resolution', 
@@ -19,10 +19,9 @@ setup(
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers', 
-    'Topic :: Software Development :: Utilities',
-    'License :: OSI Approved :: Apache-2.0 License',   # Again, pick a license
-    'Programming Language :: Python :: 3', 
-    'Programming Language :: Python :: 3.4',
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+    'License :: OSI Approved :: Apache Software License',
+    'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
