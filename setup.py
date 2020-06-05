@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'erexplain',         
   packages = ['erxplain'],  
-  version = '0.1',     
+  version = '0.1.1',     
   license='apache-2.0',  
   description = 'library to explain models for Entity Resolution', 
   author = 'Vincenzo Martello',
