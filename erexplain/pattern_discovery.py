@@ -33,7 +33,7 @@ def mineAssociationRules(df,columns,class_to_explain,lprefix='ltable_',rprefix='
 	frequent_itemsets = fpmax(df, min_support=min_support,use_colnames=True)
 	ar = association_rules(frequent_itemsets, metric="confidence", min_threshold = min_confidence)
 	ar['antecedents_isleft'] = ar['antecedents'].apply(lambda s: all(token.startswith('L_') for token in s))
-	ar['consequents_isright'] = ar['consequents'].apply(lambda s: all(token.startswith('R_') for token in s)))
+	ar['consequents_isright'] = ar['consequents'].apply(lambda s: all(token.startswith('R_') for token in s))
 	important_rules = ar[(ar.antecedents_isleft==True)& (ar.consequents_isright==True)]
 	return important_rules
 
