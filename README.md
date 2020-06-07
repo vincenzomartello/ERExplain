@@ -21,7 +21,7 @@ To use this package you need some simple requirements:
 
 The label 0 indicates a non-matching pair, while label 1 indicates matching pairs. Ltable_ and rtable_ are the prefix for the left and the right attributes respectively. You can use any prefix you prefer
 
-3. A list of Pandas dataframes containing the sources of records, you have to read them the following way:
+3. A list of Pandas dataframes containing the sources of records, each of one read in the following way:
 
   ``` source1 = pandas.read_csv('source1_path',dtype=str) ```
 
